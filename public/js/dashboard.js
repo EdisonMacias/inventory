@@ -38723,7 +38723,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "icon" }, [
-      _c("i", { staticClass: "material-icons" }, [_vm._v("contacts")])
+      _c("i", { staticClass: "material-icons" }, [_vm._v("recent_actors")])
     ])
   },
   function() {
@@ -38731,7 +38731,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "icon" }, [
-      _c("i", { staticClass: "material-icons" }, [_vm._v("people")])
+      _c("i", { staticClass: "material-icons" }, [_vm._v("people_alt")])
     ])
   },
   function() {
@@ -38739,7 +38739,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "icon" }, [
-      _c("i", { staticClass: "material-icons" }, [_vm._v("category")])
+      _c("i", { staticClass: "material-icons" }, [_vm._v("warehouse")])
     ])
   },
   function() {
@@ -38747,7 +38747,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "icon" }, [
-      _c("i", { staticClass: "material-icons" }, [_vm._v("receipt")])
+      _c("i", { staticClass: "material-icons" }, [_vm._v("receipt_long")])
     ])
   },
   function() {
@@ -38755,7 +38755,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "icon" }, [
-      _c("i", { staticClass: "material-icons" }, [_vm._v("local_mall")])
+      _c("i", { staticClass: "material-icons" }, [_vm._v("shopping_bag")])
     ])
   },
   function() {
@@ -38763,7 +38763,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "icon" }, [
-      _c("i", { staticClass: "material-icons" }, [_vm._v("local_shipping")])
+      _c("i", { staticClass: "material-icons" }, [_vm._v("shopping_cart")])
     ])
   },
   function() {
@@ -38771,7 +38771,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "icon" }, [
-      _c("i", { staticClass: "material-icons" }, [_vm._v("bar_chart")])
+      _c("i", { staticClass: "material-icons" }, [_vm._v("analytics")])
     ])
   },
   function() {
@@ -38779,7 +38779,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "icon" }, [
-      _c("i", { staticClass: "material-icons" }, [_vm._v("payment")])
+      _c("i", { staticClass: "material-icons" }, [_vm._v("local_atm")])
     ])
   },
   function() {
@@ -38787,7 +38787,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "icon" }, [
-      _c("i", { staticClass: "material-icons" }, [_vm._v("attach_money")])
+      _c("i", { staticClass: "material-icons" }, [_vm._v("monetization_on")])
     ])
   },
   function() {
@@ -38795,7 +38795,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "icon" }, [
-      _c("i", { staticClass: "material-icons" }, [_vm._v("money_off")])
+      _c("i", { staticClass: "material-icons" }, [_vm._v("money_off_csred")])
     ])
   },
   function() {

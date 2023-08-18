@@ -47,7 +47,7 @@
                             <label for="rememberme">Recuérdame</label>
                         </div>
                         <div class="col-xs-4">
-                            <button class="btn btn-block bg-pink waves-effect" type="submit">Ingresar</button>
+                            <button class="btn btn-block bg-blue waves-effect" type="submit">Ingresar</button>
                         </div>
                     </div>
                     <div class="row m-t-15 m-b--20">
