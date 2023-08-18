@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Profit Report</title>
+	<title>Informe de beneficios</title>
 	<link href="{{ url('plugins/bootstrap/css/bootstrap.css') }}" rel="stylesheet">
 </head>
 <body>
@@ -24,16 +24,15 @@
 							</tr>  				
 
 							<tr style="border: none !important;">
-								<td colspan="5" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Profit Report from {{ date('j M Y',strtotime($start_date)) }} To {{ date('j M Y',strtotime($end_date)) }}</p></td>
+								<td colspan="5" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Informe de beneficios de {{ date('j M Y',strtotime($start_date)) }} al {{ date('j M Y',strtotime($end_date)) }}</p></td>
 
 							</tr>
 							<tr>
-								<th>Product</th>
-								<th>Quantity</th>
-								<th>Total Selling Importe</th>
-								<th>Total Buying Importe</th>
-								<th>Profit</th>
-							
+								<th>producto</th>
+								<th>cantidad</th>
+								<th>Importe de venta total</th>
+								<th>Total Compra Importe</th>
+								<th>beneficio</th>
 							</tr>
 						</thead>
 

@@ -1,6 +1,6 @@
 @extends('include.master')
 
-@section('title','Inventory | Categorías')
+@section('title','Inventario | Categorías')
 
 @section('page-title','Lista de categorías')
 

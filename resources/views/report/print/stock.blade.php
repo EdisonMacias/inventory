@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Stock Report</title>
+	<title>Informe de existencias</title>
 	<link href="{{ url('plugins/bootstrap/css/bootstrap.css') }}" rel="stylesheet">
 </head>
 <body>
@@ -24,20 +24,20 @@
 							</tr>  				
 
 							<tr style="border: none !important;">
-								<td colspan="11" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Stock Report from {{ date('j M Y',strtotime($start_date)) }} To {{ date('j M Y',strtotime($end_date)) }}</p></td>
+								<td colspan="11" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Informe de existencias de {{ date('j M Y',strtotime($start_date)) }} al {{ date('j M Y',strtotime($end_date)) }}</p></td>
 
 							</tr>
 							<tr>
-								<th>Category</th>
-								<th>Product</th>
+								<th>categoría</th>
+								<th>producto</th>
 								<th>Comprobante</th>
 								<th>Fecha</th>
-								<th>Entry By</th>
-								<th>Buying Price</th>
-								<th>Selling Price</th>
-								<th>Stock Quantity</th>
-								<th>Sold Quantity</th>
-								<th>Current Quantity</th>
+								<th>Entrada por</th>
+								<th>Precio de compra</th>
+								<th>precio de venta</th>
+								<th>Cantidad de stock</th>
+								<th>Cantidad vendida</th>
+								<th>Cantidad actual</th>
 							</tr>
 						</thead>
 

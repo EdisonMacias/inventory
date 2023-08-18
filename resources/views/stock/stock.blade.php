@@ -1,7 +1,7 @@
 @extends('include.master')
 
 
-@section('title','Inventory | Existencias')
+@section('title','Inventario | Existencias')
 
 
 @section('page-title','Lista de Existencias')

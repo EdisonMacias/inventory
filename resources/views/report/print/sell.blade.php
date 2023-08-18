@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sell Report</title>
+	<title>Informe de venta</title>
 	<link href="{{ url('plugins/bootstrap/css/bootstrap.css') }}" rel="stylesheet">
 </head>
 <body>
@@ -24,21 +24,21 @@
 							</tr>  	  			
 
 							<tr style="border: none !important;">
-								<td colspan="11" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Sell Report from {{ date('j M Y',strtotime($start_date)) }} To {{ date('j M Y',strtotime($end_date)) }}</p></td>
+								<td colspan="11" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Informe de venta de {{ date('j M Y',strtotime($start_date)) }} al {{ date('j M Y',strtotime($end_date)) }}</p></td>
 
 							</tr>
 							<tr>
-								<th>Product</th>
+								<th>producto</th>
 								<th>Comprobante</th>
-								<th>Sold Date</th>
-								<th>Customer</th>
-								<th>Seller</th>
-								<th>Quantity</th>
-								<th>Unit Buying Price</th>
-								<th>Unit Selling Price</th>
-								<th>Disount Importe</th>
-								<th>Total Buying Importe</th>
-								<th>Total Selling Importe</th>
+								<th>Fecha de venta</th>
+								<th>cliente</th>
+								<th>vendedor</th>
+								<th>cantidad</th>
+								<th>Precio de compra unitario</th>
+								<th>Precio de venta unitario</th>
+								<th>Importación de descuento</th>
+								<th>Total Compra Importe</th>
+								<th>Importe de venta total</th>
 							
 							</tr>
 						</thead>

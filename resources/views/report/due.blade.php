@@ -1,10 +1,10 @@
 @extends('include.master')
 
 
-@section('title','Inventory | Due-Report')
+@section('title','Inventario | Informe pendiente')
 
 
-@section('page-title','Due Report')
+@section('page-title','Informe pendiente')
 
 
 @section('content')
@@ -18,7 +18,7 @@
 			<div class="header">
 				<h2>
 					
-					Due Report
+				Informe pendiente
 					
 				</h2>
 
@@ -52,15 +52,15 @@
 							</tr>  			
 
 							<tr style="border: none !important;">
-								<td colspan="4" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Due Report from {{ date('j M Y',strtotime($start_date)) }} To {{ date('j M Y',strtotime($end_date)) }}</p></td>
+								<td colspan="4" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Informe pendiente de {{ date('j M Y',strtotime($start_date)) }} al {{ date('j M Y',strtotime($end_date)) }}</p></td>
 
 							</tr>
 							<tr>
 								
-								<th>Customer</th>
+								<th>cliente</th>
 								<th>Total Importe</th>
-								<th>Paid Importe</th>
-								<th>Due</th>
+								<th>Importe pagado</th>
+								<th>pendiente</th>
 							</tr>
 						</thead>
 						

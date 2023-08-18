@@ -1,10 +1,10 @@
 @extends('include.master')
 
 
-@section('title','Inventory | Invoice-Report')
+@section('title','Inventario | Informe-Factura')
 
 
-@section('page-title','Invoice Report')
+@section('page-title','Informe de factura')
 
 
 @section('content')
@@ -18,7 +18,7 @@
 			<div class="header">
 				<h2>
 					
-					Invoice Report
+				Informe de factura
 					
 				</h2>
 
@@ -52,18 +52,18 @@
 							</tr>  				
 
 							<tr style="border: none !important;">
-								<td colspan="8" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Invoice Report from {{ date('j M Y',strtotime($start_date)) }} To {{ date('j M Y',strtotime($end_date)) }}</p></td>
+								<td colspan="8" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Informe de factura de {{ date('j M Y',strtotime($start_date)) }} al {{ date('j M Y',strtotime($end_date)) }}</p></td>
 
 							</tr>
 							<tr>
-								<th>Invoice No.</th>
-								<th>Invoice Date</th>
-								<th>Customer</th>
-								<th>Seller</th>
-								<th>Details</th>
+								<th>Factura No.</th>
+								<th>Fecha de la factura</th>
+								<th>cliente</th>
+								<th>vendedor</th>
+								<th>Detalles</th>
 								<th>Total Importe</th>
-								<th>Paid Importe</th>
-								<th>Due</th>
+								<th>Importe pagado</th>
+								<th>pendiente</th>
 							</tr>
 						</thead>
 						

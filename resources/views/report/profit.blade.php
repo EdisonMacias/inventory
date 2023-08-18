@@ -1,10 +1,10 @@
 @extends('include.master')
 
 
-@section('title','Inventory | Profit-Report')
+@section('title','Inventario | Informe-beneficios')
 
 
-@section('page-title','Profit Report')
+@section('page-title','Informe de beneficios')
 
 
 @section('content')
@@ -18,7 +18,7 @@
 			<div class="header">
 				<h2>
 					
-					Profit Report
+				Informe de beneficios
 					
 				</h2>
 
@@ -52,16 +52,15 @@
 							</tr>  	 			
 
 							<tr style="border: none !important;">
-								<td colspan="5" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Profit Report from {{ date('j M Y',strtotime($start_date)) }} To {{ date('j M Y',strtotime($end_date)) }}</p></td>
+								<td colspan="5" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Informe de beneficios de {{ date('j M Y',strtotime($start_date)) }} al {{ date('j M Y',strtotime($end_date)) }}</p></td>
 
 							</tr>
 							<tr>
-								<th>Product</th>
-								<th>Quantity</th>
-								<th>Total Selling Importe</th>
-								<th>Total Buying Importe</th>
-								<th>Profit</th>
-							
+								<th>producto</th>
+								<th>cantidad</th>
+								<th>Importe de venta total</th>
+								<th>Total Compra Importe</th>
+								<th>beneficio</th>
 							</tr>
 						</thead>
 
