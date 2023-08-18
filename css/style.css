@@ -1856,7 +1856,7 @@
     color: #fff !important; }
 
 .bg-pink {
-  background-color: #E91E63 !important;
+  background-color: #026efc !important;
   color: #fff; }
   .bg-pink .content .text,
   .bg-pink .content .number {
@@ -3545,8 +3545,8 @@ section.content {
   background-color: #F44336; }
 
 [type="checkbox"].filled-in:checked.chk-col-pink + label:after {
-  border: 2px solid #E91E63;
-  background-color: #E91E63; }
+  border: 2px solid #026efc ;
+  background-color: #026efc ; }
 
 [type="checkbox"].filled-in:checked.chk-col-purple + label:after {
   border: 2px solid #9C27B0;
@@ -7784,7 +7784,7 @@ fieldset[disabled] .form-control {
 
 /* Login Page ================================== */
 .login-page {
-  background: url("../images/bg.webp") center no-repeat fixed;
+  background: url("../images/bg.jpg") center no-repeat fixed;
   background-size: cover;
   padding-left: 0;
   max-width: 400px;
