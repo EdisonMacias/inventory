@@ -1,5 +1,5 @@
 .theme-teal .navbar {
-  background-color: #009688; }
+  background-color: #a9b4b3; }
 
 .theme-teal .navbar-brand {
   color: #fff; }
@@ -31,7 +31,7 @@
   background-color: rgba(0, 0, 0, 0); }
   .theme-teal .sidebar .menu .list li.active > :first-child i,
   .theme-teal .sidebar .menu .list li.active > :first-child span {
-    color: #009688; }
+    color: #f36d74; }
 
 .theme-teal .sidebar .menu .list .toggled {
   background-color: rgba(0, 0, 0, 0); }

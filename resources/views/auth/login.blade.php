@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Inventory | Login</title>
+	<title>Inventario | Iniciar sesión</title>
 	@include('include.header')
 </head>
 <body class="login-page">

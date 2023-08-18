@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>@yield('title','Inventory')</title>
+    <title>@yield('title','Inventario')</title>
 
     @include('include.header')
     <style>
@@ -37,7 +37,7 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <a href="javascript:void(0);" class="bars"></a>
-                <a class="navbar-brand" href="{{ url('/') }}" title=""><img class="img-fluid" src="{{ url('images/logo.png') }}" alt=" logo" style="height: 40px;"></a>
+                <a class="navbar-brand" href="{{ url('/') }}" title=""><img class="img-fluid" src="{{ url('images/lgo.png') }}" alt=" logo" style="height: 40px;"></a>
             </div>
         </div>
     </nav>

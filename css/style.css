@@ -7576,7 +7576,7 @@ fieldset[disabled] .form-control {
     white-space: nowrap;
     position: relative;
     border-bottom: 1px solid #e9e9e9;
-    background-color: #dde7e5;
+    background-color: #e4e7e7;
     height: 135px; }
     .sidebar .user-info .image {
       margin-right: 120px;
@@ -7584,7 +7584,7 @@ fieldset[disabled] .form-control {
       padding: 0 auto; }
       .sidebar .user-info .image img {
         background: #eee;
-        border: 3px solid #009688;
+        border: 3px solid #a9b4b3;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
